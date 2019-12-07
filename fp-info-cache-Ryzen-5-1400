@@ -1,4 +1,4 @@
-17219168461598489
+17307222945228329
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -40921,6 +40921,398 @@ connector
 0
 4
 4
+Connectors_TE-Connectivity
+BNC_Socket_TYCO-AMP
+BNC Socket TYCO AMP
+BNC Socket TYCO AMP
+0
+4
+2
+Connectors_TE-Connectivity
+BNC_Socket_TYCO-AMP_LargePads
+BNC Socket TYCO AMP
+BNC Socket TYCO AMP
+0
+4
+2
+Connectors_TE-Connectivity
+TE_1-84952-0_1x10_P1.0mm_Horizontal
+TE FPC connector, 10 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+12
+10
+Connectors_TE-Connectivity
+TE_1-84952-1_1x11_P1.0mm_Horizontal
+TE FPC connector, 11 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+13
+11
+Connectors_TE-Connectivity
+TE_1-84952-2_1x12_P1.0mm_Horizontal
+TE FPC connector, 12 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+14
+12
+Connectors_TE-Connectivity
+TE_1-84952-3_1x13_P1.0mm_Horizontal
+TE FPC connector, 13 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+15
+13
+Connectors_TE-Connectivity
+TE_1-84952-4_1x14_P1.0mm_Horizontal
+TE FPC connector, 14 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+16
+14
+Connectors_TE-Connectivity
+TE_1-84952-5_1x15_P1.0mm_Horizontal
+TE FPC connector, 15 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+17
+15
+Connectors_TE-Connectivity
+TE_1-84952-6_1x16_P1.0mm_Horizontal
+TE FPC connector, 16 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+18
+16
+Connectors_TE-Connectivity
+TE_1-84952-7_1x17_P1.0mm_Horizontal
+TE FPC connector, 17 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+19
+17
+Connectors_TE-Connectivity
+TE_1-84952-8_1x18_P1.0mm_Horizontal
+TE FPC connector, 18 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+20
+18
+Connectors_TE-Connectivity
+TE_1-84952-9_1x19_P1.0mm_Horizontal
+TE FPC connector, 19 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+21
+19
+Connectors_TE-Connectivity
+TE_1-84953-0_1x10_P1.0mm_Horizontal
+TE FPC connector, 10 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+12
+10
+Connectors_TE-Connectivity
+TE_1-84953-1_1x11_P1.0mm_Horizontal
+TE FPC connector, 11 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+13
+11
+Connectors_TE-Connectivity
+TE_1-84953-2_1x12_P1.0mm_Horizontal
+TE FPC connector, 12 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+14
+12
+Connectors_TE-Connectivity
+TE_1-84953-3_1x13_P1.0mm_Horizontal
+TE FPC connector, 13 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+15
+13
+Connectors_TE-Connectivity
+TE_1-84953-4_1x14_P1.0mm_Horizontal
+TE FPC connector, 14 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+16
+14
+Connectors_TE-Connectivity
+TE_1-84953-5_1x15_P1.0mm_Horizontal
+TE FPC connector, 15 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+17
+15
+Connectors_TE-Connectivity
+TE_1-84953-6_1x16_P1.0mm_Horizontal
+TE FPC connector, 16 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+18
+16
+Connectors_TE-Connectivity
+TE_1-84953-7_1x17_P1.0mm_Horizontal
+TE FPC connector, 17 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+19
+17
+Connectors_TE-Connectivity
+TE_1-84953-8_1x18_P1.0mm_Horizontal
+TE FPC connector, 18 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+20
+18
+Connectors_TE-Connectivity
+TE_1-84953-9_1x19_P1.0mm_Horizontal
+TE FPC connector, 19 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+21
+19
+Connectors_TE-Connectivity
+TE_2-84952-0_1x20_P1.0mm_Horizontal
+TE FPC connector, 20 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+22
+20
+Connectors_TE-Connectivity
+TE_2-84952-1_1x21_P1.0mm_Horizontal
+TE FPC connector, 21 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+23
+21
+Connectors_TE-Connectivity
+TE_2-84952-2_1x22_P1.0mm_Horizontal
+TE FPC connector, 22 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+24
+22
+Connectors_TE-Connectivity
+TE_2-84952-3_1x23_P1.0mm_Horizontal
+TE FPC connector, 23 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+25
+23
+Connectors_TE-Connectivity
+TE_2-84952-4_1x24_P1.0mm_Horizontal
+TE FPC connector, 24 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+26
+24
+Connectors_TE-Connectivity
+TE_2-84952-5_1x25_P1.0mm_Horizontal
+TE FPC connector, 25 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+27
+25
+Connectors_TE-Connectivity
+TE_2-84952-6_1x26_P1.0mm_Horizontal
+TE FPC connector, 26 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+28
+26
+Connectors_TE-Connectivity
+TE_2-84952-7_1x27_P1.0mm_Horizontal
+TE FPC connector, 27 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+29
+27
+Connectors_TE-Connectivity
+TE_2-84952-8_1x28_P1.0mm_Horizontal
+TE FPC connector, 28 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+30
+28
+Connectors_TE-Connectivity
+TE_2-84952-9_1x29_P1.0mm_Horizontal
+TE FPC connector, 29 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+31
+29
+Connectors_TE-Connectivity
+TE_2-84953-0_1x20_P1.0mm_Horizontal
+TE FPC connector, 20 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+22
+20
+Connectors_TE-Connectivity
+TE_2-84953-1_1x21_P1.0mm_Horizontal
+TE FPC connector, 21 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+23
+21
+Connectors_TE-Connectivity
+TE_2-84953-2_1x22_P1.0mm_Horizontal
+TE FPC connector, 22 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+24
+22
+Connectors_TE-Connectivity
+TE_2-84953-3_1x23_P1.0mm_Horizontal
+TE FPC connector, 23 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+25
+23
+Connectors_TE-Connectivity
+TE_2-84953-4_1x24_P1.0mm_Horizontal
+TE FPC connector, 24 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+26
+24
+Connectors_TE-Connectivity
+TE_2-84953-5_1x25_P1.0mm_Horizontal
+TE FPC connector, 25 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+27
+25
+Connectors_TE-Connectivity
+TE_2-84953-6_1x26_P1.0mm_Horizontal
+TE FPC connector, 26 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+28
+26
+Connectors_TE-Connectivity
+TE_2-84953-7_1x27_P1.0mm_Horizontal
+TE FPC connector, 27 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+29
+27
+Connectors_TE-Connectivity
+TE_2-84953-8_1x28_P1.0mm_Horizontal
+TE FPC connector, 28 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+30
+28
+Connectors_TE-Connectivity
+TE_2-84953-9_1x29_P1.0mm_Horizontal
+TE FPC connector, 29 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+31
+29
+Connectors_TE-Connectivity
+TE_3-84952-0_1x30_P1.0mm_Horizontal
+TE FPC connector, 30 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+32
+30
+Connectors_TE-Connectivity
+TE_3-84953-0_1x30_P1.0mm_Horizontal
+TE FPC connector, 30 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+32
+30
+Connectors_TE-Connectivity
+TE_84952-4_1x04_P1.0mm_Horizontal
+TE FPC connector, 04 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+6
+4
+Connectors_TE-Connectivity
+TE_84952-5_1x05_P1.0mm_Horizontal
+TE FPC connector, 05 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+7
+5
+Connectors_TE-Connectivity
+TE_84952-6_1x06_P1.0mm_Horizontal
+TE FPC connector, 06 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+8
+6
+Connectors_TE-Connectivity
+TE_84952-7_1x07_P1.0mm_Horizontal
+TE FPC connector, 07 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+9
+7
+Connectors_TE-Connectivity
+TE_84952-8_1x08_P1.0mm_Horizontal
+TE FPC connector, 08 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+10
+8
+Connectors_TE-Connectivity
+TE_84952-9_1x09_P1.0mm_Horizontal
+TE FPC connector, 09 bottom-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84952&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84952-4
+te fpc 84952
+0
+11
+9
+Connectors_TE-Connectivity
+TE_84953-4_1x04_P1.0mm_Horizontal
+TE FPC connector, 04 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+6
+4
+Connectors_TE-Connectivity
+TE_84953-5_1x05_P1.0mm_Horizontal
+TE FPC connector, 05 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+7
+5
+Connectors_TE-Connectivity
+TE_84953-6_1x06_P1.0mm_Horizontal
+TE FPC connector, 06 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+8
+6
+Connectors_TE-Connectivity
+TE_84953-7_1x07_P1.0mm_Horizontal
+TE FPC connector, 07 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+9
+7
+Connectors_TE-Connectivity
+TE_84953-8_1x08_P1.0mm_Horizontal
+TE FPC connector, 08 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+10
+8
+Connectors_TE-Connectivity
+TE_84953-9_1x09_P1.0mm_Horizontal
+TE FPC connector, 09 top-side contacts, 1.0mm pitch, 1.0mm height, SMT, http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=84953&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=84953-4
+te fpc 84953
+0
+11
+9
 Converter_ACDC
 Converter_ACDC_Hahn_HS-400xx_THT
 ACDC-Converter, 3W, Hahn-HS-400xx, THT https://www.schukat.com/schukat/schukat_cms_de.nsf/index/FrameView?OpenDocument&art=HS40009&wg=M7942
@@ -51405,29 +51797,29 @@ BUS_PCIexpress_x4_64_Position
 PCIexpress Bus Edge Connector
 PCIexpress Bus Edge Connector
 0
-127
+128
 64
 PCIe
 BUS_PCIexpress_x8_98_Position
 PCIexpress Bus Edge Connector
 PCIexpress Bus Edge Connector
 0
-196
+197
 98
 PCIe
 BUS_PCIexpress_x16_164_Position
 PCIexpress Bus Edge Connector
 PCIexpress Bus Edge Connector
 0
-329
+330
 164
 PCIe
 BUS_mechaken_PCIexpress_x16_164_Position
 PCIexpress Bus Edge Connector
 PCIexpress Bus Edge Connector
 0
-329
-27
+330
+12
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
