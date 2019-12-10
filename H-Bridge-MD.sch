@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:H-Bridge-MD-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -424,11 +423,8 @@ Text GLabel 2900 8100 0    50   Input ~ 0
 SB_1
 Text GLabel 2900 8200 0    50   Input ~ 0
 SA_1
-Wire Wire Line
-	3250 9200 3250 9500
-Text GLabel 6250 10000 2    50   Input ~ 0
+Text GLabel 6050 9750 2    50   Input ~ 0
 SB_1
-Connection ~ 3250 9500
 $Comp
 L Device:D D6
 U 1 1 5DA97CE4
@@ -565,25 +561,16 @@ Wire Wire Line
 	1350 1950 1000 1950
 Connection ~ 1350 1950
 Wire Wire Line
-	2800 1150 2800 1300
-Wire Wire Line
-	3700 1150 2800 1150
-Wire Wire Line
 	1350 1950 1350 2100
 Wire Wire Line
 	1650 1650 1700 1650
 Wire Wire Line
 	900  1650 1000 1650
 Wire Wire Line
-	2300 2000 2800 2000
-Wire Wire Line
-	2300 1600 2800 1600
-Wire Wire Line
 	3700 1150 3950 1150
 Wire Wire Line
 	3700 1050 3700 1150
 Connection ~ 3700 1150
-Connection ~ 2800 1600
 Wire Wire Line
 	3700 3300 3700 3400
 Wire Wire Line
@@ -639,17 +626,6 @@ F 3 "" H 5750 3200 50  0001 C CNN
 	1    5750 3200
 	0    1    1    0   
 $EndComp
-$Comp
-L power:+3.3V #PWR08
-U 1 1 5DA97109
-P 2350 700
-F 0 "#PWR08" H 2350 550 50  0001 C CNN
-F 1 "+3.3V" H 2365 873 50  0000 C CNN
-F 2 "" H 2350 700 50  0001 C CNN
-F 3 "" H 2350 700 50  0001 C CNN
-	1    2350 700 
-	1    0    0    -1  
-$EndComp
 Text GLabel 5250 2000 0    50   Output ~ 0
 VCP_RX
 Text GLabel 5250 1900 0    50   Input ~ 0
@@ -676,7 +652,7 @@ F 3 "~" H 1700 1800 50  0001 C CNN
 	1    1700 1800
 	-1   0    0    1   
 $EndComp
-Text GLabel 3100 1600 1    50   Input ~ 0
+Text GLabel 3200 1600 0    50   Input ~ 0
 NRST
 Text GLabel 4200 3100 2    50   Input ~ 0
 VCP_RX
@@ -791,39 +767,6 @@ F 3 "" H 1150 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push SW1
-U 1 1 5D5B7C98
-P 2800 1800
-F 0 "SW1" V 2754 1752 50  0000 R CNN
-F 1 "SW_Push" V 2845 1752 50  0000 R CNN
-F 2 "SamacSys_Parts:PTS647SM38SMTR2LFS" H 2800 2000 50  0001 C CNN
-F 3 "~" H 2800 2000 50  0001 C CNN
-	1    2800 1800
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5D5B9AC3
-P 2300 1750
-F 0 "C3" H 2415 1796 50  0000 L CNN
-F 1 "0.1uF" H 2415 1705 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 1600 50  0001 C CNN
-F 3 "~" H 2300 1750 50  0001 C CNN
-	1    2300 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 5D5C9315
-P 2800 1450
-F 0 "R11" H 2870 1496 50  0000 L CNN
-F 1 "10K" H 2870 1405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2730 1450 50  0001 C CNN
-F 3 "~" H 2800 1450 50  0001 C CNN
-	1    2800 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R10
 U 1 1 5D5AB267
 P 2650 3100
@@ -917,7 +860,7 @@ Text GLabel 7700 9500 0    50   Output ~ 0
 GLB_1
 Text GLabel 7700 10400 0    50   Output ~ 0
 GLA_1
-Text GLabel 6250 9500 2    50   Input ~ 0
+Text GLabel 6050 9550 2    50   Input ~ 0
 SA_1
 Text GLabel 7050 9600 0    50   Input ~ 0
 SB_1
@@ -932,12 +875,12 @@ SA_1
 $Comp
 L power:VCC #PWR011
 U 1 1 5DA97C3E
-P 3250 9200
-F 0 "#PWR011" H 3250 9050 50  0001 C CNN
-F 1 "VCC" H 3267 9373 50  0000 C CNN
-F 2 "" H 3250 9200 50  0001 C CNN
-F 3 "" H 3250 9200 50  0001 C CNN
-	1    3250 9200
+P 3050 9350
+F 0 "#PWR011" H 3050 9200 50  0001 C CNN
+F 1 "VCC" H 3067 9523 50  0000 C CNN
+F 2 "" H 3050 9350 50  0001 C CNN
+F 3 "" H 3050 9350 50  0001 C CNN
+	1    3050 9350
 	1    0    0    -1  
 $EndComp
 Text GLabel 1850 9600 0    50   Input ~ 0
@@ -1010,78 +953,6 @@ F 3 "" H 7700 9300 50  0001 C CNN
 $EndComp
 NoConn ~ 7700 9900
 NoConn ~ 7700 10600
-Connection ~ 2150 10000
-Wire Wire Line
-	2150 9900 2150 10000
-Wire Wire Line
-	3250 10000 3250 10150
-Connection ~ 3250 10000
-Wire Wire Line
-	2150 10150 2150 10000
-Wire Wire Line
-	3250 10150 2150 10150
-Wire Wire Line
-	3250 9700 3250 9800
-Connection ~ 3250 9700
-Wire Wire Line
-	3250 9600 3250 9700
-Connection ~ 3250 9600
-Wire Wire Line
-	3250 9500 3250 9600
-$Comp
-L SamacSys_Parts:NVMFD5C650NLWFT1G Q1
-U 1 1 5DA97B82
-P 2150 9500
-F 0 "Q1" H 2700 9765 50  0000 C CNN
-F 1 "NVMFD5C650NLWFT1G" H 2700 9674 50  0000 C CNN
-F 2 "SamacSys_Parts:NVMFD5C446NLWFT1G" H 3100 9600 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/1723345P" H 3100 9500 50  0001 L CNN
-F 4 "Power MOSFET 60V, 111A, 4.2 mOhm, Dual N-Channel, SO8-FL, Logic Level." H 3100 9400 50  0001 L CNN "Description"
-F 5 "" H 3100 9300 50  0001 L CNN "Height"
-F 6 "1723345P" H 3100 9200 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/1723345P" H 3100 9100 50  0001 L CNN "RS Price/Stock"
-F 8 "ON Semiconductor" H 3100 9000 50  0001 L CNN "Manufacturer_Name"
-F 9 "NVMFD5C650NLWFT1G" H 3100 8900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2150 9500
-	1    0    0    -1  
-$EndComp
-Connection ~ 5150 10000
-Wire Wire Line
-	5150 9900 5150 10000
-Wire Wire Line
-	6250 10000 6250 10150
-Connection ~ 6250 10000
-Wire Wire Line
-	5150 10150 5150 10000
-Wire Wire Line
-	6250 10150 5150 10150
-Wire Wire Line
-	6250 9900 6250 10000
-Wire Wire Line
-	6250 9700 6250 9800
-Connection ~ 6250 9700
-Wire Wire Line
-	6250 9600 6250 9700
-Connection ~ 6250 9600
-Wire Wire Line
-	6250 9500 6250 9600
-$Comp
-L SamacSys_Parts:NVMFD5C650NLWFT1G Q2
-U 1 1 5DA97B6A
-P 5150 9500
-F 0 "Q2" H 5700 9765 50  0000 C CNN
-F 1 "NVMFD5C650NLWFT1G" H 5700 9674 50  0000 C CNN
-F 2 "SamacSys_Parts:NVMFD5C446NLWFT1G" H 6100 9600 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/1723345P" H 6100 9500 50  0001 L CNN
-F 4 "Power MOSFET 60V, 111A, 4.2 mOhm, Dual N-Channel, SO8-FL, Logic Level." H 6100 9400 50  0001 L CNN "Description"
-F 5 "" H 6100 9300 50  0001 L CNN "Height"
-F 6 "1723345P" H 6100 9200 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/1723345P" H 6100 9100 50  0001 L CNN "RS Price/Stock"
-F 8 "ON Semiconductor" H 6100 9000 50  0001 L CNN "Manufacturer_Name"
-F 9 "NVMFD5C650NLWFT1G" H 6100 8900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5150 9500
-	1    0    0    -1  
-$EndComp
 $Comp
 L SamacSys_Parts:A3921KLPTR-T IC2
 U 1 1 5DA97B5E
@@ -1111,20 +982,6 @@ Text GLabel 3200 2200 0    50   Output ~ 0
 IC_SR_0
 Text GLabel 4200 1600 2    50   Output ~ 0
 IC_RESET_0
-Wire Wire Line
-	2300 1900 2300 2000
-$Comp
-L power:GND #PWR07
-U 1 1 5D5BD5BD
-P 2300 2000
-F 0 "#PWR07" H 2300 1750 50  0001 C CNN
-F 1 "GND" H 2305 1827 50  0000 C CNN
-F 2 "" H 2300 2000 50  0001 C CNN
-F 3 "" H 2300 2000 50  0001 C CNN
-	1    2300 2000
-	1    0    0    -1  
-$EndComp
-Connection ~ 2300 2000
 Connection ~ 1000 3550
 Wire Wire Line
 	1000 3550 700  3550
@@ -1325,12 +1182,6 @@ F 3 "" H 12600 7500 50  0001 C CNN
 	1    12600 7550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 9800 3250 9900
-Connection ~ 3250 9800
-Connection ~ 3250 9900
-Wire Wire Line
-	3250 9900 3250 10000
 $Comp
 L power:GNDPWR #PWR039
 U 1 1 5DD2966C
@@ -1396,8 +1247,6 @@ Text GLabel 4200 2300 2    50   Output ~ 0
 IC_PWMH_1
 Text GLabel 10250 4000 2    50   Output ~ 0
 MD_RESET_0
-Wire Wire Line
-	3200 1600 2800 1600
 Text GLabel 3200 2400 0    50   Output ~ 0
 IC_RESET_1
 Text GLabel 4200 2200 2    50   Output ~ 0
@@ -1455,10 +1304,6 @@ Connection ~ 5300 4750
 Text GLabel 6650 6400 0    50   Input ~ 0
 GLA_0
 Connection ~ 6300 6300
-Connection ~ 10700 6650
-Connection ~ 10700 6550
-Wire Wire Line
-	10700 6550 10700 6650
 $Comp
 L Interface_CAN_LIN:MCP2562-E-SN U3
 U 1 1 5DB5AF60
@@ -1470,80 +1315,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf" H 5300 4350 50 
 	1    5300 4350
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:NVMFD5C650NLWFT1G Q3
-U 1 1 5DC023CB
-P 6950 6300
-F 0 "Q3" H 7500 6565 50  0000 C CNN
-F 1 "NVMFD5C650NLWFT1G" H 7500 6474 50  0000 C CNN
-F 2 "SamacSys_Parts:NVMFD5C446NLWFT1G" H 7900 6400 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/1723345P" H 7900 6300 50  0001 L CNN
-F 4 "Power MOSFET 60V, 111A, 4.2 mOhm, Dual N-Channel, SO8-FL, Logic Level." H 7900 6200 50  0001 L CNN "Description"
-F 5 "" H 7900 6100 50  0001 L CNN "Height"
-F 6 "1723345P" H 7900 6000 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/1723345P" H 7900 5900 50  0001 L CNN "RS Price/Stock"
-F 8 "ON Semiconductor" H 7900 5800 50  0001 L CNN "Manufacturer_Name"
-F 9 "NVMFD5C650NLWFT1G" H 7900 5700 50  0001 L CNN "Manufacturer_Part_Number"
-	1    6950 6300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8050 6300 8050 6400
-Connection ~ 8050 6400
-Wire Wire Line
-	8050 6400 8050 6500
-Connection ~ 8050 6500
-Wire Wire Line
-	8050 6500 8050 6600
-Wire Wire Line
-	8050 6700 8050 6800
-Wire Wire Line
-	8050 6950 6950 6950
-Wire Wire Line
-	6950 6950 6950 6800
-Connection ~ 8050 6800
-Wire Wire Line
-	8050 6800 8050 6950
-Wire Wire Line
-	6950 6700 6950 6800
-Connection ~ 6950 6800
-$Comp
-L SamacSys_Parts:NVMFD5C650NLWFT1G Q4
-U 1 1 5DC023E3
-P 9600 6250
-F 0 "Q4" H 10150 6515 50  0000 C CNN
-F 1 "NVMFD5C650NLWFT1G" H 10150 6424 50  0000 C CNN
-F 2 "SamacSys_Parts:NVMFD5C446NLWFT1G" H 10550 6350 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/1723345P" H 10550 6250 50  0001 L CNN
-F 4 "Power MOSFET 60V, 111A, 4.2 mOhm, Dual N-Channel, SO8-FL, Logic Level." H 10550 6150 50  0001 L CNN "Description"
-F 5 "" H 10550 6050 50  0001 L CNN "Height"
-F 6 "1723345P" H 10550 5950 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/1723345P" H 10550 5850 50  0001 L CNN "RS Price/Stock"
-F 8 "ON Semiconductor" H 10550 5750 50  0001 L CNN "Manufacturer_Name"
-F 9 "NVMFD5C650NLWFT1G" H 10550 5650 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9600 6250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10700 6250 10700 6350
-Connection ~ 10700 6350
-Wire Wire Line
-	10700 6350 10700 6450
-Connection ~ 10700 6450
-Wire Wire Line
-	10700 6450 10700 6550
-Wire Wire Line
-	10700 6650 10700 6750
-Wire Wire Line
-	10700 6900 9600 6900
-Wire Wire Line
-	9600 6900 9600 6750
-Connection ~ 10700 6750
-Wire Wire Line
-	10700 6750 10700 6900
-Wire Wire Line
-	9600 6650 9600 6750
-Connection ~ 9600 6750
 $Comp
 L Device:R R16
 U 1 1 5DC0241B
@@ -1558,50 +1329,48 @@ $EndComp
 $Comp
 L Device:R R20
 U 1 1 5DC02421
-P 9450 6350
-F 0 "R20" V 9650 6275 50  0000 L CNN
-F 1 "21" V 9550 6275 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 6350 50  0001 C CNN
-F 3 "~" H 9450 6350 50  0001 C CNN
-	1    9450 6350
+P 9350 6350
+F 0 "R20" V 9550 6275 50  0000 L CNN
+F 1 "21" V 9450 6275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9280 6350 50  0001 C CNN
+F 3 "~" H 9350 6350 50  0001 C CNN
+	1    9350 6350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R21
 U 1 1 5DC02427
-P 9450 6550
-F 0 "R21" V 9565 6476 50  0000 L CNN
-F 1 "21" V 9656 6476 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9380 6550 50  0001 C CNN
-F 3 "~" H 9450 6550 50  0001 C CNN
-	1    9450 6550
+P 9350 6550
+F 0 "R21" V 9465 6476 50  0000 L CNN
+F 1 "21" V 9556 6476 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9280 6550 50  0001 C CNN
+F 3 "~" H 9350 6550 50  0001 C CNN
+	1    9350 6550
 	0    1    1    0   
 $EndComp
-Text GLabel 9300 6550 0    50   Input ~ 0
+Text GLabel 9200 6550 0    50   Input ~ 0
 GHB_0
-Text GLabel 9300 6350 0    50   Input ~ 0
+Text GLabel 9200 6350 0    50   Input ~ 0
 GHA_0
 $Comp
 L power:VCC #PWR044
 U 1 1 5DC0243F
-P 10700 5950
-F 0 "#PWR044" H 10700 5800 50  0001 C CNN
-F 1 "VCC" H 10717 6123 50  0000 C CNN
-F 2 "" H 10700 5950 50  0001 C CNN
-F 3 "" H 10700 5950 50  0001 C CNN
-	1    10700 5950
+P 10400 6050
+F 0 "#PWR044" H 10400 5900 50  0001 C CNN
+F 1 "VCC" H 10417 6223 50  0000 C CNN
+F 2 "" H 10400 6050 50  0001 C CNN
+F 3 "" H 10400 6050 50  0001 C CNN
+	1    10400 6050
 	1    0    0    -1  
 $EndComp
-Text GLabel 9350 6250 0    50   Input ~ 0
+Text GLabel 9250 6250 0    50   Input ~ 0
 SA_0
-Text GLabel 9350 6450 0    50   Input ~ 0
+Text GLabel 9250 6450 0    50   Input ~ 0
 SB_0
 Text GLabel 11250 6850 0    50   Input ~ 0
 SA_0
 Text GLabel 11250 6050 0    50   Input ~ 0
 SB_0
-Text GLabel 8050 6300 2    50   Input ~ 0
-SA_0
 $Comp
 L Device:C C13
 U 1 1 5DC0245C
@@ -1626,7 +1395,6 @@ F 3 "" H 11050 5350 50  0001 C CNN
 	1    11050 5400
 	1    0    0    -1  
 $EndComp
-Connection ~ 10700 6250
 Text GLabel 6650 6600 0    50   Input ~ 0
 GLB_0
 $Comp
@@ -1640,10 +1408,6 @@ F 3 "~" H 6800 6600 50  0001 C CNN
 	1    6800 6600
 	0    1    1    0   
 $EndComp
-Text GLabel 8050 6800 2    50   Input ~ 0
-SB_0
-Wire Wire Line
-	10700 5950 10700 6250
 $Comp
 L power:GNDPWR #PWR024
 U 1 1 5DC024A5
@@ -1710,39 +1474,6 @@ Text GLabel 4200 2500 2    50   Output ~ 0
 MD0_LED_L
 Text GLabel 4200 2400 2    50   Output ~ 0
 MD1_LED_H
-$Comp
-L power:GND #PWR09
-U 1 1 5DA8FF81
-P 2350 1300
-F 0 "#PWR09" H 2350 1050 50  0001 C CNN
-F 1 "GND" H 2355 1127 50  0000 C CNN
-F 2 "" H 2350 1300 50  0001 C CNN
-F 3 "" H 2350 1300 50  0001 C CNN
-	1    2350 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D5
-U 1 1 5DA8FF8E
-P 2350 1150
-F 0 "D5" V 2389 1033 50  0000 R CNN
-F 1 "LED" V 2298 1033 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 2350 1150 50  0001 C CNN
-F 3 "~" H 2350 1150 50  0001 C CNN
-	1    2350 1150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5DA8FF87
-P 2350 850
-F 0 "R9" H 2420 896 50  0000 L CNN
-F 1 "10K" H 2420 805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2280 850 50  0001 C CNN
-F 3 "~" H 2350 850 50  0001 C CNN
-	1    2350 850 
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:LED D10
 U 1 1 5DD0BADA
@@ -1890,9 +1621,9 @@ Wire Wire Line
 Wire Wire Line
 	5450 3000 5450 3300
 Wire Wire Line
-	9350 6250 9600 6250
+	9250 6250 9500 6250
 Wire Wire Line
-	9350 6450 9600 6450
+	9250 6450 9500 6450
 Wire Wire Line
 	4500 9700 5150 9700
 Wire Wire Line
@@ -1938,7 +1669,7 @@ Wire Wire Line
 	4500 9700 4500 9500
 Connection ~ 4500 9500
 $Comp
-L Regulator_Linear:LD1117S33TR_SOT223 U1
+L H-Bridge-MD-rescue:LD1117S33TR_SOT223-Regulator_Linear U1
 U 1 1 5DEBD597
 P 1350 1650
 F 0 "U1" H 1200 1775 50  0000 C CNN
@@ -2099,7 +1830,7 @@ U 1 1 5DF6F0E7
 P 5450 1900
 F 0 "J2" H 5450 2100 50  0000 C CNN
 F 1 "Conn_01x03" H 5450 1700 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 5450 1900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5450 1900 50  0001 C CNN
 F 3 "~" H 5450 1900 50  0001 C CNN
 	1    5450 1900
 	1    0    0    -1  
@@ -2201,9 +1932,87 @@ U 1 1 5DAA7AEF
 P 5950 3200
 F 0 "J3" H 6030 3242 50  0000 L CNN
 F 1 "Conn_01x05" H 6030 3151 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 5950 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 5950 3200 50  0001 C CNN
 F 3 "~" H 5950 3200 50  0001 C CNN
 	1    5950 3200
 	1    0    0    -1  
 $EndComp
+Text GLabel 7850 6550 2    50   Input ~ 0
+SB_0
+Text GLabel 7850 6350 2    50   Input ~ 0
+SA_0
+$Comp
+L SamacSys_Parts:NVMFD5C446NT1G Q3
+U 1 1 5E07A08D
+P 6950 6250
+F 0 "Q3" H 7050 6500 50  0000 L CNN
+F 1 "NVMFD5C446NT1G" H 7050 6400 50  0000 L CNN
+F 2 "SamacSys_Parts:NVMFD5C446NLWFT1G" H 7900 6350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NVMFD5C446NT1G.pdf" H 7900 6250 50  0001 L CNN
+F 4 "40V 2.9 MOHM T8 S08FL DUA" H 7700 6200 50  0001 L CNN "Description"
+F 5 "863-NVMFD5C446NT1G" H 7700 6000 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NVMFD5C446NT1G" H 7700 5900 50  0001 L CNN "Mouser Price/Stock"
+F 7 "ON Semiconductor" H 7900 5750 50  0001 L CNN "Manufacturer_Name"
+F 8 "NVMFD5C446NT1G" H 7900 5650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6950 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:NVMFD5C446NT1G Q2
+U 1 1 5E0C48AC
+P 5150 9450
+F 0 "Q2" H 5250 9700 50  0000 L CNN
+F 1 "NVMFD5C446NT1G" H 5250 9600 50  0000 L CNN
+F 2 "SamacSys_Parts:NVMFD5C446NLWFT1G" H 6100 9550 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NVMFD5C446NT1G.pdf" H 6100 9450 50  0001 L CNN
+F 4 "40V 2.9 MOHM T8 S08FL DUA" H 5900 9400 50  0001 L CNN "Description"
+F 5 "863-NVMFD5C446NT1G" H 5900 9200 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NVMFD5C446NT1G" H 5900 9100 50  0001 L CNN "Mouser Price/Stock"
+F 7 "ON Semiconductor" H 6100 8950 50  0001 L CNN "Manufacturer_Name"
+F 8 "NVMFD5C446NT1G" H 6100 8850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5150 9450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 9350 3050 9550
+Connection ~ 3050 9550
+Wire Wire Line
+	3050 9550 3050 9750
+$Comp
+L SamacSys_Parts:NVMFD5C446NT1G Q1
+U 1 1 5E0F1BF7
+P 2150 9450
+F 0 "Q1" H 2250 9700 50  0000 L CNN
+F 1 "NVMFD5C446NT1G" H 2250 9600 50  0000 L CNN
+F 2 "SamacSys_Parts:NVMFD5C446NLWFT1G" H 3100 9550 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NVMFD5C446NT1G.pdf" H 3100 9450 50  0001 L CNN
+F 4 "40V 2.9 MOHM T8 S08FL DUA" H 2900 9400 50  0001 L CNN "Description"
+F 5 "863-NVMFD5C446NT1G" H 2900 9200 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NVMFD5C446NT1G" H 2900 9100 50  0001 L CNN "Mouser Price/Stock"
+F 7 "ON Semiconductor" H 3100 8950 50  0001 L CNN "Manufacturer_Name"
+F 8 "NVMFD5C446NT1G" H 3100 8850 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2150 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:NVMFD5C446NT1G Q4
+U 1 1 5E0924D2
+P 9500 6200
+F 0 "Q4" H 9600 6450 50  0000 L CNN
+F 1 "NVMFD5C446NT1G" H 9600 6350 50  0000 L CNN
+F 2 "SamacSys_Parts:NVMFD5C446NLWFT1G" H 10450 6300 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/NVMFD5C446NT1G.pdf" H 10450 6200 50  0001 L CNN
+F 4 "40V 2.9 MOHM T8 S08FL DUA" H 10250 6150 50  0001 L CNN "Description"
+F 5 "863-NVMFD5C446NT1G" H 10250 5950 50  0001 L CNN "Mouser Part Number"
+F 6 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NVMFD5C446NT1G" H 10250 5850 50  0001 L CNN "Mouser Price/Stock"
+F 7 "ON Semiconductor" H 10450 5700 50  0001 L CNN "Manufacturer_Name"
+F 8 "NVMFD5C446NT1G" H 10450 5600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    9500 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 6050 10400 6300
+Connection ~ 10400 6300
+Wire Wire Line
+	10400 6300 10400 6500
 $EndSCHEMATC
