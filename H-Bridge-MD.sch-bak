@@ -1059,13 +1059,19 @@ Wire Wire Line
 	9850 10400 10050 10400
 Wire Wire Line
 	9100 10400 9850 10400
-Text GLabel 13300 6050 2    50   Output ~ 0
+Text GLabel 13300 6050 2    50   Input ~ 0
 MD_FF1_0
-Text GLabel 13300 5950 2    50   Output ~ 0
+Text GLabel 13300 5950 2    50   Input ~ 0
 MD_FF2_0
+<<<<<<< Updated upstream
 Text GLabel 7950 7950 1    50   Input ~ 0
 MD_FF1_1
 Text GLabel 7600 7950 1    50   Input ~ 0
+=======
+Text GLabel 7600 8550 3    50   Input ~ 0
+MD_FF1_1
+Text GLabel 7950 8550 3    50   Input ~ 0
+>>>>>>> Stashed changes
 MD_FF2_1
 Text GLabel 13500 4000 2    50   Output ~ 0
 MD_3V3
@@ -1409,17 +1415,27 @@ MD1_LED_H
 $Comp
 L Device:LED D6
 U 1 1 5DD0BADA
+<<<<<<< Updated upstream
 P 7600 8400
 F 0 "D6" V 7639 8283 50  0000 R CNN
 F 1 "LED" V 7548 8283 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7600 8400 50  0001 C CNN
 F 3 "~" H 7600 8400 50  0001 C CNN
 	1    7600 8400
+=======
+P 7600 8100
+F 0 "D6" V 7639 7983 50  0000 R CNN
+F 1 "LED" V 7548 7983 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7600 8100 50  0001 C CNN
+F 3 "~" H 7600 8100 50  0001 C CNN
+	1    7600 8100
+>>>>>>> Stashed changes
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 5DD0BAE0
+<<<<<<< Updated upstream
 P 7600 8100
 F 0 "R8" H 7670 8146 50  0000 L CNN
 F 1 "10K" H 7670 8055 50  0000 L CNN
@@ -1427,21 +1443,40 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 8100 50  0001 C CNN
 F 3 "~" H 7600 8100 50  0001 C CNN
 	1    7600 8100
 	1    0    0    -1  
+=======
+P 7600 8400
+F 0 "R8" H 7670 8446 50  0000 L CNN
+F 1 "10K" H 7670 8355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7530 8400 50  0001 C CNN
+F 3 "~" H 7600 8400 50  0001 C CNN
+	1    7600 8400
+	-1   0    0    1   
+>>>>>>> Stashed changes
 $EndComp
 $Comp
 L Device:LED D7
 U 1 1 5DD9DF80
+<<<<<<< Updated upstream
 P 7950 8400
 F 0 "D7" V 7989 8283 50  0000 R CNN
 F 1 "LED" V 7898 8283 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 7950 8400 50  0001 C CNN
 F 3 "~" H 7950 8400 50  0001 C CNN
 	1    7950 8400
+=======
+P 7950 8100
+F 0 "D7" V 7989 7983 50  0000 R CNN
+F 1 "LED" V 7898 7983 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7950 8100 50  0001 C CNN
+F 3 "~" H 7950 8100 50  0001 C CNN
+	1    7950 8100
+>>>>>>> Stashed changes
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R9
 U 1 1 5DD9DF86
+<<<<<<< Updated upstream
 P 7950 8100
 F 0 "R9" H 8020 8146 50  0000 L CNN
 F 1 "10K" H 8020 8055 50  0000 L CNN
@@ -1475,21 +1510,44 @@ $EndComp
 Text GLabel 8300 5300 1    50   Input ~ 0
 MD_FF1_0
 Text GLabel 8650 5300 1    50   Input ~ 0
+=======
+P 7950 8400
+F 0 "R9" H 8020 8446 50  0000 L CNN
+F 1 "10K" H 8020 8355 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 8400 50  0001 C CNN
+F 3 "~" H 7950 8400 50  0001 C CNN
+	1    7950 8400
+	-1   0    0    1   
+$EndComp
+Text GLabel 8300 5900 3    50   Output ~ 0
+MD_FF1_0
+Text GLabel 8650 5900 3    50   Output ~ 0
+>>>>>>> Stashed changes
 MD_FF2_0
 $Comp
 L Device:LED D9
 U 1 1 5E145D00
+<<<<<<< Updated upstream
 P 8650 5750
 F 0 "D9" V 8689 5633 50  0000 R CNN
 F 1 "LED" V 8598 5633 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8650 5750 50  0001 C CNN
 F 3 "~" H 8650 5750 50  0001 C CNN
 	1    8650 5750
+=======
+P 8650 5450
+F 0 "D9" V 8689 5333 50  0000 R CNN
+F 1 "LED" V 8598 5333 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 8650 5450 50  0001 C CNN
+F 3 "~" H 8650 5450 50  0001 C CNN
+	1    8650 5450
+>>>>>>> Stashed changes
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R11
 U 1 1 5E145D06
+<<<<<<< Updated upstream
 P 8650 5450
 F 0 "R11" H 8720 5496 50  0000 L CNN
 F 1 "10K" H 8720 5405 50  0000 L CNN
@@ -1497,10 +1555,20 @@ F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 5450 50  0001 C CNN
 F 3 "~" H 8650 5450 50  0001 C CNN
 	1    8650 5450
 	1    0    0    -1  
+=======
+P 8650 5750
+F 0 "R11" H 8720 5796 50  0000 L CNN
+F 1 "2.2K" H 8720 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8580 5750 50  0001 C CNN
+F 3 "~" H 8650 5750 50  0001 C CNN
+	1    8650 5750
+	-1   0    0    1   
+>>>>>>> Stashed changes
 $EndComp
 $Comp
 L Device:LED D8
 U 1 1 5E145D0C
+<<<<<<< Updated upstream
 P 8300 5750
 F 0 "D8" V 8339 5633 50  0000 R CNN
 F 1 "LED" V 8248 5633 50  0000 R CNN
@@ -1542,6 +1610,16 @@ F 3 "" H 8650 5850 50  0001 C CNN
 	1    8650 5900
 	1    0    0    -1  
 $EndComp
+=======
+P 8300 5450
+F 0 "D8" V 8339 5333 50  0000 R CNN
+F 1 "LED" V 8248 5333 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 8300 5450 50  0001 C CNN
+F 3 "~" H 8300 5450 50  0001 C CNN
+	1    8300 5450
+	0    -1   -1   0   
+$EndComp
+>>>>>>> Stashed changes
 Wire Wire Line
 	1900 9500 2150 9500
 Wire Wire Line
@@ -1605,7 +1683,7 @@ L H-Bridge-MD-rescue:LD1117S33TR_SOT223-Regulator_Linear U1
 U 1 1 5DEBD597
 P 1350 1650
 F 0 "U1" H 1200 1775 50  0000 C CNN
-F 1 "LDL1117S33TR_SOT223-4" H 1350 1775 50  0000 L CNN
+F 1 "LDL1117S33R_SOT223-4" H 1350 1775 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1350 1850 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 1450 1400 50  0001 C CNN
 	1    1350 1650
@@ -2085,4 +2163,27 @@ F 3 "" H 13000 4400 50  0001 C CNN
 	1    13000 4450
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R10
+U 1 1 5E145D12
+P 8300 5750
+F 0 "R10" H 8370 5796 50  0000 L CNN
+F 1 "2.2K" H 8370 5705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 5750 50  0001 C CNN
+F 3 "~" H 8300 5750 50  0001 C CNN
+	1    8300 5750
+	-1   0    0    1   
+$EndComp
+Text GLabel 14800 6550 2    50   Output ~ 0
+V5_0
+Text GLabel 8500 5300 1    50   Input ~ 0
+V5_0
+Wire Wire Line
+	8300 5300 8650 5300
+Text GLabel 10600 10100 2    50   Output ~ 0
+V5_1
+Text GLabel 7800 7950 1    50   Input ~ 0
+V5_1
+Wire Wire Line
+	7600 7950 7950 7950
 $EndSCHEMATC
