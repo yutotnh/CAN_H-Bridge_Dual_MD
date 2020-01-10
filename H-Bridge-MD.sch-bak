@@ -2140,12 +2140,12 @@ Wire Wire Line
 Connection ~ 7100 2100
 Wire Wire Line
 	7100 2100 7100 2200
-Text GLabel 6300 1900 0    50   Output ~ 0
-DIP_SW_1
-Text GLabel 6300 2000 0    50   Output ~ 0
-DIP_SW_2
-Text GLabel 6300 2100 0    50   Output ~ 0
-DIP_SW_3
 Text GLabel 6300 2200 0    50   Output ~ 0
+DIP_SW_1
+Text GLabel 6300 2100 0    50   Output ~ 0
+DIP_SW_2
+Text GLabel 6300 2000 0    50   Output ~ 0
+DIP_SW_3
+Text GLabel 6300 1900 0    50   Output ~ 0
 DIP_SW_4
 $EndSCHEMATC
