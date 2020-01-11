@@ -340,11 +340,11 @@ F 3 "~" H 7350 10650 50  0001 C CNN
 	1    7350 10650
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 8200 0    50   Input ~ 0
-SB_1
 Text GLabel 2900 8100 0    50   Input ~ 0
+SB_1
+Text GLabel 2900 8200 0    50   Input ~ 0
 SA_1
-Text GLabel 6050 9550 2    50   Input ~ 0
+Text GLabel 6050 9750 2    50   Input ~ 0
 SB_1
 $Comp
 L Device:D D5
@@ -754,7 +754,7 @@ Text GLabel 7700 9500 0    50   Output ~ 0
 GLB_1
 Text GLabel 7700 10400 0    50   Output ~ 0
 GLA_1
-Text GLabel 6050 9750 2    50   Input ~ 0
+Text GLabel 6050 9550 2    50   Input ~ 0
 SA_1
 Text GLabel 7050 9600 0    50   Input ~ 0
 SB_1
@@ -762,9 +762,9 @@ Wire Wire Line
 	9100 10600 9100 10800
 Text GLabel 7050 10400 0    50   Input ~ 0
 SA_1
-Text GLabel 1900 9500 0    50   Input ~ 0
-SB_1
 Text GLabel 1900 9700 0    50   Input ~ 0
+SB_1
+Text GLabel 1900 9500 0    50   Input ~ 0
 SA_1
 $Comp
 L power:VCC #PWR09
@@ -777,9 +777,9 @@ F 3 "" H 3050 9350 50  0001 C CNN
 	1    3050 9350
 	1    0    0    -1  
 $EndComp
-Text GLabel 1850 9800 0    50   Input ~ 0
-GHA_1
 Text GLabel 1850 9600 0    50   Input ~ 0
+GHA_1
+Text GLabel 1850 9800 0    50   Input ~ 0
 GHB_1
 Text GLabel 7700 10200 0    50   Output ~ 0
 GHA_1
@@ -804,23 +804,23 @@ Wire Wire Line
 $Comp
 L Device:R R2
 U 1 1 5DA97C08
-P 2000 9800
-F 0 "R2" V 2115 9800 50  0000 C CNN
-F 1 "21" V 2206 9800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1930 9800 50  0001 C CNN
-F 3 "~" H 2000 9800 50  0001 C CNN
-	1    2000 9800
+P 2000 9600
+F 0 "R2" V 2115 9600 50  0000 C CNN
+F 1 "21" V 2206 9600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1930 9600 50  0001 C CNN
+F 3 "~" H 2000 9600 50  0001 C CNN
+	1    2000 9600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R1
 U 1 1 5DA97BF0
-P 2000 9600
-F 0 "R1" V 2250 9600 50  0000 C CNN
-F 1 "21" V 2150 9600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1930 9600 50  0001 C CNN
-F 3 "~" H 2000 9600 50  0001 C CNN
-	1    2000 9600
+P 2000 9800
+F 0 "R1" V 2250 9800 50  0000 C CNN
+F 1 "21" V 2150 9800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1930 9800 50  0001 C CNN
+F 3 "~" H 2000 9800 50  0001 C CNN
+	1    2000 9800
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1158,7 +1158,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 2900 5300 2900
 Connection ~ 5300 4750
-Text GLabel 6650 6600 0    50   Input ~ 0
+Text GLabel 6650 6400 0    50   Input ~ 0
 GLA_0
 Connection ~ 6300 6300
 $Comp
@@ -1175,28 +1175,28 @@ $EndComp
 $Comp
 L Device:R R12
 U 1 1 5DC02421
-P 9350 6350
-F 0 "R12" V 9550 6350 50  0000 C CNN
-F 1 "21" V 9450 6350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9280 6350 50  0001 C CNN
-F 3 "~" H 9350 6350 50  0001 C CNN
-	1    9350 6350
+P 9350 6550
+F 0 "R12" V 9550 6550 50  0000 C CNN
+F 1 "21" V 9450 6550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9280 6550 50  0001 C CNN
+F 3 "~" H 9350 6550 50  0001 C CNN
+	1    9350 6550
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R13
 U 1 1 5DC02427
-P 9350 6550
-F 0 "R13" V 9465 6550 50  0000 C CNN
-F 1 "21" V 9556 6550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 9280 6550 50  0001 C CNN
-F 3 "~" H 9350 6550 50  0001 C CNN
-	1    9350 6550
+P 9350 6350
+F 0 "R13" V 9465 6350 50  0000 C CNN
+F 1 "21" V 9556 6350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9280 6350 50  0001 C CNN
+F 3 "~" H 9350 6350 50  0001 C CNN
+	1    9350 6350
 	0    1    1    0   
 $EndComp
-Text GLabel 9200 6350 0    50   Input ~ 0
-GHB_0
 Text GLabel 9200 6550 0    50   Input ~ 0
+GHB_0
+Text GLabel 9200 6350 0    50   Input ~ 0
 GHA_0
 $Comp
 L power:VCC #PWR037
@@ -1209,9 +1209,9 @@ F 3 "" H 10400 6050 50  0001 C CNN
 	1    10400 6050
 	1    0    0    -1  
 $EndComp
-Text GLabel 9250 6450 0    50   Input ~ 0
-SA_0
 Text GLabel 9250 6250 0    50   Input ~ 0
+SA_0
+Text GLabel 9250 6450 0    50   Input ~ 0
 SB_0
 Text GLabel 11250 6850 0    50   Input ~ 0
 SA_0
@@ -1239,17 +1239,17 @@ F 3 "" H 11050 5350 50  0001 C CNN
 	1    11050 5400
 	1    0    0    -1  
 $EndComp
-Text GLabel 6650 6400 0    50   Input ~ 0
+Text GLabel 6650 6600 0    50   Input ~ 0
 GLB_0
 $Comp
 L Device:R R7
 U 1 1 5DC02488
-P 6800 6400
-F 0 "R7" V 6550 6400 50  0000 C CNN
-F 1 "21" V 6650 6400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 6400 50  0001 C CNN
-F 3 "~" H 6800 6400 50  0001 C CNN
-	1    6800 6400
+P 6800 6600
+F 0 "R7" V 6550 6600 50  0000 C CNN
+F 1 "21" V 6650 6600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 6600 50  0001 C CNN
+F 3 "~" H 6800 6600 50  0001 C CNN
+	1    6800 6600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1265,9 +1265,9 @@ F 3 "" H 6300 6250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6300 6500 6300 6300
-Text GLabel 7050 5650 0    50   Input ~ 0
-SA_0
 Text GLabel 7050 5750 0    50   Input ~ 0
+SA_0
+Text GLabel 7050 5650 0    50   Input ~ 0
 SB_0
 $Comp
 L power:GNDPWR #PWR036
@@ -1410,39 +1410,13 @@ Wire Wire Line
 Wire Wire Line
 	5450 3000 5450 3300
 Wire Wire Line
-	9250 6250 9500 6250
-Wire Wire Line
 	9250 6450 9500 6450
+Wire Wire Line
+	9250 6250 9500 6250
 Wire Wire Line
 	4500 9700 5150 9700
 Wire Wire Line
 	4500 9500 5150 9500
-$Comp
-L Device:R R4
-U 1 1 5DA97BEA
-P 5000 9600
-F 0 "R4" V 5207 9600 50  0000 C CNN
-F 1 "21" V 5116 9600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 9600 50  0001 C CNN
-F 3 "~" H 5000 9600 50  0001 C CNN
-	1    5000 9600
-	0    -1   -1   0   
-$EndComp
-Text GLabel 4850 9800 0    50   Input ~ 0
-GLA_1
-Text GLabel 4850 9600 0    50   Input ~ 0
-GLB_1
-$Comp
-L Device:R R5
-U 1 1 5DA97C02
-P 5000 9800
-F 0 "R5" V 5115 9800 50  0000 C CNN
-F 1 "21" V 5206 9800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 9800 50  0001 C CNN
-F 3 "~" H 5000 9800 50  0001 C CNN
-	1    5000 9800
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GNDPWR #PWR015
 U 1 1 5DBF7CAD
@@ -1726,7 +1700,7 @@ F 3 "~" H 5950 3200 50  0001 C CNN
 	1    5950 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7850 6550 2    50   Input ~ 0
+Text GLabel 7850 6350 2    50   Input ~ 0
 SA_0
 $Comp
 L SamacSys_Parts:NVMFD5C446NT1G Q2
@@ -2072,7 +2046,7 @@ F 3 "" H 11850 4950 50  0001 C CNN
 	1    11850 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 7850 6350 2    50   Input ~ 0
+Text GLabel 7850 6550 2    50   Input ~ 0
 SB_0
 $Comp
 L SamacSys_Parts:NVMFD5C446NT1G Q3
@@ -2093,12 +2067,12 @@ $EndComp
 $Comp
 L Device:R R6
 U 1 1 5DC0241B
-P 6800 6600
-F 0 "R6" V 6685 6600 50  0000 C CNN
-F 1 "21" V 6594 6600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 6600 50  0001 C CNN
-F 3 "~" H 6800 6600 50  0001 C CNN
-	1    6800 6600
+P 6800 6400
+F 0 "R6" V 6685 6400 50  0000 C CNN
+F 1 "21" V 6594 6400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6730 6400 50  0001 C CNN
+F 3 "~" H 6800 6400 50  0001 C CNN
+	1    6800 6400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -2148,4 +2122,30 @@ Text GLabel 6300 2000 0    50   Output ~ 0
 DIP_SW_3
 Text GLabel 6300 1900 0    50   Output ~ 0
 DIP_SW_4
+$Comp
+L Device:R R5
+U 1 1 5DA97C02
+P 5000 9600
+F 0 "R5" V 5115 9600 50  0000 C CNN
+F 1 "21" V 5206 9600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 9600 50  0001 C CNN
+F 3 "~" H 5000 9600 50  0001 C CNN
+	1    5000 9600
+	0    1    1    0   
+$EndComp
+Text GLabel 4850 9600 0    50   Input ~ 0
+GLA_1
+Text GLabel 4850 9800 0    50   Input ~ 0
+GLB_1
+$Comp
+L Device:R R4
+U 1 1 5DA97BEA
+P 5000 9800
+F 0 "R4" V 5207 9800 50  0000 C CNN
+F 1 "21" V 5116 9800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4930 9800 50  0001 C CNN
+F 3 "~" H 5000 9800 50  0001 C CNN
+	1    5000 9800
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
