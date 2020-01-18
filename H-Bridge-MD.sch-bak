@@ -1782,7 +1782,11 @@ L Device:C C5
 U 1 1 5DF18189
 P 12650 4150
 F 0 "C5" V 12398 4150 50  0000 C CNN
+<<<<<<< Updated upstream
 F 1 "1uF" V 12489 4150 50  0000 C CNN
+=======
+F 1 "1u" V 12489 4150 50  0000 C CNN
+>>>>>>> Stashed changes
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 12688 4000 50  0001 C CNN
 F 3 "~" H 12650 4150 50  0001 C CNN
 	1    12650 4150
@@ -1793,7 +1797,11 @@ L Device:C C6
 U 1 1 5DF1818F
 P 13350 4150
 F 0 "C6" V 13098 4150 50  0000 C CNN
+<<<<<<< Updated upstream
 F 1 "4.7uF" V 13189 4150 50  0000 C CNN
+=======
+F 1 "4.7u" V 13189 4150 50  0000 C CNN
+>>>>>>> Stashed changes
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 13388 4000 50  0001 C CNN
 F 3 "~" H 13350 4150 50  0001 C CNN
 	1    13350 4150
