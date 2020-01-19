@@ -1,4 +1,4 @@
-16981971350126986
+16983554505682041
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -53200,11 +53200,11 @@ PCIexpress Bus Edge Connector
 329
 164
 PCIe
-BUS_mechaken_PCIexpress_x16_164_Position
-PCIexpress Bus Edge Connector
-PCIexpress Bus Edge Connector
+BUS_mechaken_PCIexpress_x16
+PCIexpress Bus Edge Connector x1 http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=70
+PCIe
 0
-329
+164
 20
 PCIe
 Socket_mechaken_PCIexpress_x16_164_position
@@ -53212,7 +53212,7 @@ Socket_mechaken_PCIexpress_x16_164_position
 Connector
 0
 164
-164
+20
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -68844,6 +68844,13 @@ Switch
 0
 8
 8
+SamacSys_Parts
+SOT96P240X105-3N
+AP7381-50SA-7-1
+Integrated Circuit
+0
+3
+3
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
