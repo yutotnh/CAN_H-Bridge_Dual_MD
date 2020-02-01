@@ -996,6 +996,8 @@ Text GLabel 7950 8550 3    50   Input ~ 0
 MD_FF1_1
 Text GLabel 7600 8550 3    50   Input ~ 0
 MD_FF2_1
+Text GLabel 12750 4150 0    50   Output ~ 0
+MD_3V3
 Text Label 4800 3600 0    50   ~ 0
 CAN_TD
 Text Label 4550 3500 0    50   ~ 0
@@ -1780,6 +1782,10 @@ F 3 "" H 13000 4050 50  0001 C CNN
 	1    13000 4050
 	0    -1   -1   0   
 $EndComp
+Text GLabel 10250 3900 2    50   Input ~ 0
+MD_3V3
+Text GLabel 6050 7450 2    50   Input ~ 0
+MD_3V3
 Connection ~ 9850 10100
 Wire Wire Line
 	10050 10400 10900 10400
@@ -1922,17 +1928,6 @@ F 1 "GNDPWR" H 12004 3946 50  0000 C CNN
 F 2 "" H 12000 4050 50  0001 C CNN
 F 3 "" H 12000 4050 50  0001 C CNN
 	1    12000 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG04
-U 1 1 5E1278AA
-P 11200 4100
-F 0 "#FLG04" H 11200 4175 50  0001 C CNN
-F 1 "PWR_FLAG" H 11200 4273 50  0000 C CNN
-F 2 "" H 11200 4100 50  0001 C CNN
-F 3 "~" H 11200 4100 50  0001 C CNN
-	1    11200 4100
 	1    0    0    -1  
 $EndComp
 Text GLabel 11050 5100 1    50   Input ~ 0
@@ -2119,23 +2114,6 @@ Wire Wire Line
 	11850 5000 12350 5000
 Connection ~ 11850 5000
 $Comp
-L H-Bridge-MD-rescue:AP7381-50SA-7-SamacSys_Parts IC2
-U 1 1 5E271866
-P 13300 4050
-F 0 "IC2" H 13850 4315 50  0000 C CNN
-F 1 "AP7381-50SA-7" H 13850 4224 50  0000 C CNN
-F 2 "SOT96P240X105-3N" H 14250 4150 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/AP7381-50SA-7.pdf" H 14250 4050 50  0001 L CNN
-F 4 "LDO Voltage Regulators LDO CMOS LowCurr SOT23 T&R 3K" H 14250 3950 50  0001 L CNN "Description"
-F 5 "1.05" H 14250 3850 50  0001 L CNN "Height"
-F 6 "621-AP7381-50SA-7" H 14250 3750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-AP7381-50SA-7" H 14250 3650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Diodes Inc." H 14250 3550 50  0001 L CNN "Manufacturer_Name"
-F 9 "AP7381-50SA-7" H 14250 3450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    13300 4050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C5
 U 1 1 5DF18189
 P 13100 4200
@@ -2163,51 +2141,24 @@ Wire Wire Line
 Connection ~ 13100 4450
 Wire Wire Line
 	13100 4450 14400 4450
-Connection ~ 14400 4450
 Wire Wire Line
-	14400 4050 14400 4450
+	14400 4450 14400 4050
+Connection ~ 14400 4450
 $Comp
-L power:VDD #PWR0101
-U 1 1 5E33BBA2
-P 11200 4100
-F 0 "#PWR0101" H 11200 3950 50  0001 C CNN
-F 1 "VDD" H 11217 4273 50  0000 C CNN
-F 2 "" H 11200 4100 50  0001 C CNN
-F 3 "" H 11200 4100 50  0001 C CNN
-	1    11200 4100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VDD #PWR0102
-U 1 1 5E35E290
-P 12750 4150
-F 0 "#PWR0102" H 12750 4000 50  0001 C CNN
-F 1 "VDD" H 12767 4323 50  0000 C CNN
-F 2 "" H 12750 4150 50  0001 C CNN
-F 3 "" H 12750 4150 50  0001 C CNN
-	1    12750 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VDD #PWR0103
-U 1 1 5E3654B8
-P 10250 3900
-F 0 "#PWR0103" H 10250 3750 50  0001 C CNN
-F 1 "VDD" H 10267 4073 50  0000 C CNN
-F 2 "" H 10250 3900 50  0001 C CNN
-F 3 "" H 10250 3900 50  0001 C CNN
-	1    10250 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR0104
-U 1 1 5E36C54F
-P 6050 7450
-F 0 "#PWR0104" H 6050 7300 50  0001 C CNN
-F 1 "VDD" H 6067 7623 50  0000 C CNN
-F 2 "" H 6050 7450 50  0001 C CNN
-F 3 "" H 6050 7450 50  0001 C CNN
-	1    6050 7450
+L SamacSys_Parts:AP7381-50SA-7 IC2
+U 1 1 5E358498
+P 13300 4050
+F 0 "IC2" H 13850 4315 50  0000 C CNN
+F 1 "AP7381-50SA-7" H 13850 4224 50  0000 C CNN
+F 2 "SOT96P240X105-3N" H 14250 4150 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/AP7381-50SA-7.pdf" H 14250 4050 50  0001 L CNN
+F 4 "LDO Voltage Regulators LDO CMOS LowCurr SOT23 T&R 3K" H 14250 3950 50  0001 L CNN "Description"
+F 5 "1.05" H 14250 3850 50  0001 L CNN "Height"
+F 6 "621-AP7381-50SA-7" H 14250 3750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-AP7381-50SA-7" H 14250 3650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Diodes Inc." H 14250 3550 50  0001 L CNN "Manufacturer_Name"
+F 9 "AP7381-50SA-7" H 14250 3450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    13300 4050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
