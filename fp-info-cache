@@ -1,4 +1,4 @@
-17008888936293529
+17016839833792077
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -68740,6 +68740,13 @@ MOSFET (N-Channel)
 14
 6
 SamacSys_Parts
+NVMTS0D7N06CTXG
+NVMTS0D7N06CTXG-1
+MOSFET (N-Channel)
+0
+9
+9
+SamacSys_Parts
 PTS647SM38SMTR2LFS
 PTS647SM38SMTR2LFS-3
 Switch
@@ -68795,6 +68802,13 @@ Switch
 0
 8
 8
+SamacSys_Parts
+SON50P300X200X60-9N
+8MA2 8 PAD UDFN
+Integrated Circuit
+0
+9
+9
 SamacSys_Parts
 SOP65P640X120-29N
 Package LP 28-Pin TSSOP with Exposed Thermal Pad_1
@@ -69145,6 +69159,27 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
+SnapEDA
+MODULE_NUCLEO-F303K8
+
+
+0
+30
+30
+SnapEDA
+MODULE_NUCLEO-F429ZI
+
+
+0
+244
+244
+SnapEDA
+MODULE_NUCLEO-L053R8
+
+
+0
+112
+112
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
