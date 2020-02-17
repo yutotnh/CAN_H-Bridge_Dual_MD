@@ -1974,7 +1974,7 @@ U 1 1 5E1B3DE0
 P 6300 1900
 F 0 "S2" H 6469 2165 50  0000 L CNN
 F 1 "DIPSW" H 6469 2074 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 6950 2000 50  0001 L CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm" H 6950 2000 50  0001 L CNN
 F 3 "http://uk.rs-online.com/web/p/products/8772264" H 6950 1900 50  0001 L CNN
 F 4 "4 Way Surface Mount DIP Switch SPST, Raised Actuator Slide Actuator" H 6950 1800 50  0001 L CNN "Description"
 F 5 "3.7" H 6950 1700 50  0001 L CNN "Height"
@@ -2062,7 +2062,7 @@ U 1 1 5E358498
 P 13300 4050
 F 0 "IC2" H 13850 4315 50  0000 C CNN
 F 1 "AP7381-50SA-7" H 13850 4224 50  0000 C CNN
-F 2 "SOT96P240X105-3N" H 14250 4150 50  0001 L CNN
+F 2 "SamacSys_Parts:SOT96P240X105-3N" H 14250 4150 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/AP7381-50SA-7.pdf" H 14250 4050 50  0001 L CNN
 F 4 "LDO Voltage Regulators LDO CMOS LowCurr SOT23 T&R 3K" H 14250 3950 50  0001 L CNN "Description"
 F 5 "1.05" H 14250 3850 50  0001 L CNN "Height"
@@ -2161,4 +2161,6 @@ F 3 "~" H 9350 6350 50  0001 C CNN
 	1    9350 6350
 	0    1    1    0   
 $EndComp
+Text GLabel 10250 4500 2    50   Input ~ 0
+MD_3V3
 $EndSCHEMATC
