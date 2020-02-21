@@ -1,4 +1,4 @@
-17016839833792077
+17020016539583690
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -68726,6 +68726,13 @@ Capacitor Polarised
 2
 2
 SamacSys_Parts
+DIP794W53P254L1016H394Q8N
+N8
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
@@ -68802,6 +68809,13 @@ Switch
 0
 8
 8
+SamacSys_Parts
+SOIC127P1030X265-16N
+16-Pin Wide Body SOIC
+Integrated Circuit
+0
+16
+16
 SamacSys_Parts
 SON50P300X200X60-9N
 8MA2 8 PAD UDFN
