@@ -1631,11 +1631,6 @@
       (net 45 /SWCLK))
     (pad 5 thru_hole oval (at 0 10.16 270) (size 1.7 1.7) (drill 0.85) (layers *.Cu *.Mask)
       (net 4 +3V3))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x05_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer B.Cu) (tedit 59FED5CC) (tstamp 5E23700C)
