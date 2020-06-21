@@ -188,7 +188,7 @@ L Device:C C3
 U 1 1 5DA788D5
 P 1700 1900
 F 0 "C3" V 1448 1900 50  0000 C CNN
-F 1 "4.7u" V 1539 1900 50  0000 C CNN
+F 1 "2.2u" V 1539 1900 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 1738 1750 50  0001 C CNN
 F 3 "~" H 1700 1900 50  0001 C CNN
 	1    1700 1900
@@ -484,12 +484,12 @@ MD1_LED_H
 Wire Wire Line
 	5450 3000 5450 3300
 $Comp
-L H-Bridge-MD-rescue:LD1117S33TR_SOT223-Regulator_Linear U1
+L Regulator_Linear:LD1117S33TR_SOT223 U1
 U 1 1 5DEBD597
 P 1350 1750
 F 0 "U1" H 1200 1875 50  0000 C CNN
-F 1 "LDL1117S33R_SOT223-4" H 1350 1875 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 1350 1950 50  0001 C CNN
+F 1 "AP2210N-3.3TRG1" H 1350 1875 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23W_Handsoldering" H 1350 1950 50  0001 C CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 1450 1500 50  0001 C CNN
 	1    1350 1750
 	1    0    0    -1  
@@ -499,7 +499,7 @@ L Device:R_Pack04 RN1
 U 1 1 5DEA021A
 P 2050 4800
 F 0 "RN1" V 1750 4800 50  0000 C CNN
-F 1 "4.7k" V 2250 4800 50  0000 C CNN
+F 1 "2.2k" V 2250 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x1206" V 2325 4800 50  0001 C CNN
 F 3 "~" H 2050 4800 50  0001 C CNN
 	1    2050 4800
@@ -668,113 +668,6 @@ F 3 "" H 900 2600 50  0001 C CNN
 	1    900  2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	900  2900 900  2800
-Connection ~ 900  2800
-Wire Wire Line
-	900  2700 900  2600
-Wire Wire Line
-	900  2800 900  2700
-Connection ~ 900  2700
-Connection ~ 900  2600
-$Comp
-L SamacSys_Parts:IKD0403101 S2
-U 1 1 5E1B3DE0
-P 1700 2900
-F 0 "S2" H 1869 3165 50  0000 L CNN
-F 1 "DIPSW" H 1869 3074 50  0000 L CNN
-F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm" H 2350 3000 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/8772264" H 2350 2900 50  0001 L CNN
-F 4 "4 Way Surface Mount DIP Switch SPST, Raised Actuator Slide Actuator" H 2350 2800 50  0001 L CNN "Description"
-F 5 "3.7" H 2350 2700 50  0001 L CNN "Height"
-F 6 "8772264" H 2350 2600 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/8772264" H 2350 2500 50  0001 L CNN "RS Price/Stock"
-F 8 "Apem" H 2350 2400 50  0001 L CNN "Manufacturer_Name"
-F 9 "IKD0403101" H 2350 2300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1700 2900
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	900  3500 900  3400
-Connection ~ 900  3500
-Wire Wire Line
-	900  3600 900  3500
-Connection ~ 900  3600
-Wire Wire Line
-	900  3700 900  3600
-$Comp
-L SamacSys_Parts:IKD0403101 S1
-U 1 1 5DD6F810
-P 1700 3700
-F 0 "S1" H 1869 3965 50  0000 L CNN
-F 1 "IKD0403101" H 1869 3874 50  0000 L CNN
-F 2 "SamacSys_Parts:SOP254P980X370-8N" H 2350 3800 50  0001 L CNN
-F 3 "http://uk.rs-online.com/web/p/products/8772264" H 2350 3700 50  0001 L CNN
-F 4 "4 Way Surface Mount DIP Switch SPST, Raised Actuator Slide Actuator" H 2350 3600 50  0001 L CNN "Description"
-F 5 "3.7" H 2350 3500 50  0001 L CNN "Height"
-F 6 "8772264" H 2350 3400 50  0001 L CNN "RS Part Number"
-F 7 "http://uk.rs-online.com/web/p/products/8772264" H 2350 3300 50  0001 L CNN "RS Price/Stock"
-F 8 "Apem" H 2350 3200 50  0001 L CNN "Manufacturer_Name"
-F 9 "IKD0403101" H 2350 3100 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1700 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR0101
-U 1 1 5E66CC24
-P 900 3400
-F 0 "#PWR0101" H 900 3250 50  0001 C CNN
-F 1 "+3.3V" H 915 3573 50  0000 C CNN
-F 2 "" H 900 3400 50  0001 C CNN
-F 3 "" H 900 3400 50  0001 C CNN
-	1    900  3400
-	1    0    0    -1  
-$EndComp
-Connection ~ 900  3400
-Wire Wire Line
-	1700 2600 2050 2600
-Text Label 2150 2900 0    50   ~ 0
-DIP_SW4
-Text Label 2150 2800 0    50   ~ 0
-DIP_SW3
-Text Label 2150 2700 0    50   ~ 0
-DIP_SW2
-Text Label 2150 2600 0    50   ~ 0
-DIP_SW1
-Wire Wire Line
-	3200 2700 1950 2700
-Wire Wire Line
-	3200 2800 1850 2800
-Wire Wire Line
-	3200 2900 1750 2900
-Wire Wire Line
-	1750 2900 1750 3400
-Wire Wire Line
-	1750 3400 1700 3400
-Connection ~ 1750 2900
-Wire Wire Line
-	1750 2900 1700 2900
-Wire Wire Line
-	1850 2800 1850 3500
-Wire Wire Line
-	1850 3500 1700 3500
-Connection ~ 1850 2800
-Wire Wire Line
-	1850 2800 1700 2800
-Wire Wire Line
-	1950 2700 1950 3600
-Wire Wire Line
-	1950 3600 1700 3600
-Connection ~ 1950 2700
-Wire Wire Line
-	1950 2700 1700 2700
-Wire Wire Line
-	2050 2600 2050 3700
-Wire Wire Line
-	2050 3700 1700 3700
-Connection ~ 2050 2600
-Wire Wire Line
-	2050 2600 3200 2600
 $Comp
 L power:GNDPWR #PWR018
 U 1 1 5DF3C16D
@@ -1052,52 +945,18 @@ Text GLabel 9650 6950 0    50   Input ~ 0
 GHB_0
 Text GLabel 7100 6800 0    50   Input ~ 0
 GLA_0
-$Comp
-L SamacSys_Parts:AP7381-50SA-7 IC2
-U 1 1 5E358498
-P 12900 2800
-F 0 "IC2" H 13450 3065 50  0000 C CNN
-F 1 "AP7381-50SA-7" H 13450 2974 50  0000 C CNN
-F 2 "SamacSys_Parts:SOT96P240X105-3N" H 13850 2900 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/AP7381-50SA-7.pdf" H 13850 2800 50  0001 L CNN
-F 4 "LDO Voltage Regulators LDO CMOS LowCurr SOT23 T&R 3K" H 13850 2700 50  0001 L CNN "Description"
-F 5 "1.05" H 13850 2600 50  0001 L CNN "Height"
-F 6 "621-AP7381-50SA-7" H 13850 2500 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-AP7381-50SA-7" H 13850 2400 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Diodes Inc." H 13850 2300 50  0001 L CNN "Manufacturer_Name"
-F 9 "AP7381-50SA-7" H 13850 2200 50  0001 L CNN "Manufacturer_Part_Number"
-	1    12900 2800
-	1    0    0    -1  
-$EndComp
-Connection ~ 14000 3200
 Wire Wire Line
-	14000 3200 14000 2800
-Wire Wire Line
-	12700 3200 14000 3200
-Connection ~ 12700 3200
-Wire Wire Line
-	12700 3100 12700 3200
-Wire Wire Line
-	12400 3200 12700 3200
-Wire Wire Line
-	12400 2900 12900 2900
-Connection ~ 12400 2900
-Wire Wire Line
-	12350 2900 12400 2900
-Wire Wire Line
-	12700 2800 12600 2800
-Connection ~ 12700 2800
-Wire Wire Line
-	12900 2800 12700 2800
+	12950 2350 12850 2350
+Connection ~ 12950 2350
 $Comp
 L Device:C C5
 U 1 1 5DF18189
-P 12700 2950
-F 0 "C5" H 12815 2996 50  0000 L CNN
-F 1 "1u" H 12815 2905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 12738 2800 50  0001 C CNN
-F 3 "~" H 12700 2950 50  0001 C CNN
-	1    12700 2950
+P 12950 2500
+F 0 "C5" H 13065 2546 50  0000 L CNN
+F 1 "1u" H 13065 2455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 12988 2350 50  0001 C CNN
+F 3 "~" H 12950 2500 50  0001 C CNN
+	1    12950 2500
 	1    0    0    -1  
 $EndComp
 Connection ~ 11000 3150
@@ -1155,34 +1014,34 @@ V5_0
 $Comp
 L power:GNDPWR #PWR032
 U 1 1 5DFADA6B
-P 14000 3200
-F 0 "#PWR032" H 14000 3000 50  0001 C CNN
-F 1 "GNDPWR" H 14004 3046 50  0000 C CNN
-F 2 "" H 14000 3150 50  0001 C CNN
-F 3 "" H 14000 3150 50  0001 C CNN
-	1    14000 3200
+P 13350 2650
+F 0 "#PWR032" H 13350 2450 50  0001 C CNN
+F 1 "GNDPWR" H 13354 2496 50  0000 C CNN
+F 2 "" H 13350 2600 50  0001 C CNN
+F 3 "" H 13350 2600 50  0001 C CNN
+	1    13350 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR028
 U 1 1 5DF2B13A
-P 12600 2800
-F 0 "#PWR028" H 12600 2650 50  0001 C CNN
-F 1 "VCC" H 12617 2973 50  0000 C CNN
-F 2 "" H 12600 2800 50  0001 C CNN
-F 3 "" H 12600 2800 50  0001 C CNN
-	1    12600 2800
+P 12850 2350
+F 0 "#PWR028" H 12850 2200 50  0001 C CNN
+F 1 "VCC" H 12867 2523 50  0000 C CNN
+F 2 "" H 12850 2350 50  0001 C CNN
+F 3 "" H 12850 2350 50  0001 C CNN
+	1    12850 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:C C6
 U 1 1 5DF1818F
-P 12400 3050
-F 0 "C6" H 12515 3004 50  0000 L CNN
-F 1 "2.2u" H 12515 3095 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 12438 2900 50  0001 C CNN
-F 3 "~" H 12400 3050 50  0001 C CNN
-	1    12400 3050
+P 13750 2500
+F 0 "C6" H 13865 2454 50  0000 L CNN
+F 1 "1u" H 13865 2545 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 13788 2350 50  0001 C CNN
+F 3 "~" H 13750 2500 50  0001 C CNN
+	1    13750 2500
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1211,7 +1070,7 @@ F 3 "" H 13300 7600 50  0001 C CNN
 	1    13300 7650
 	1    0    0    -1  
 $EndComp
-Text GLabel 12350 2900 0    50   Output ~ 0
+Text GLabel 13900 2350 2    50   Output ~ 0
 MD_3V3
 Wire Wire Line
 	14000 7350 14250 7350
@@ -1801,28 +1660,6 @@ Wire Wire Line
 	6300 4750 6300 4350
 Wire Wire Line
 	3700 3300 3700 3600
-$Comp
-L Device:C C1
-U 1 1 5D5F70AF
-P 4100 1150
-F 0 "C1" V 3848 1150 50  0000 C CNN
-F 1 "0.1u" V 3939 1150 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 1000 50  0001 C CNN
-F 3 "~" H 4100 1150 50  0001 C CNN
-	1    4100 1150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5D63EF38
-P 4250 1150
-F 0 "#PWR08" H 4250 900 50  0001 C CNN
-F 1 "GND" V 4255 1022 50  0000 R CNN
-F 2 "" H 4250 1150 50  0001 C CNN
-F 3 "" H 4250 1150 50  0001 C CNN
-	1    4250 1150
-	0    -1   -1   0   
-$EndComp
 Text GLabel 3000 8400 2    50   Input ~ 0
 MD_3V3
 Text GLabel 3000 7800 2    50   Input ~ 0
@@ -2227,4 +2064,97 @@ F 3 "~" H 3250 9800 50  0001 C CNN
 $EndComp
 Text GLabel 8800 6250 0    50   Input ~ 0
 SA_0
+Wire Wire Line
+	1700 2900 3200 2900
+Wire Wire Line
+	1700 2800 3200 2800
+Wire Wire Line
+	1700 2700 3200 2700
+Wire Wire Line
+	1700 2600 3200 2600
+$Comp
+L power:GND #PWR08
+U 1 1 5D63EF38
+P 4250 1150
+F 0 "#PWR08" H 4250 900 50  0001 C CNN
+F 1 "GND" V 4255 1022 50  0000 R CNN
+F 2 "" H 4250 1150 50  0001 C CNN
+F 3 "" H 4250 1150 50  0001 C CNN
+	1    4250 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D5F70AF
+P 4100 1150
+F 0 "C1" V 3848 1150 50  0000 C CNN
+F 1 "0.1u" V 3939 1150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4138 1000 50  0001 C CNN
+F 3 "~" H 4100 1150 50  0001 C CNN
+	1    4100 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L Regulator_Linear:LD1117S33TR_SOT223 IC2
+U 1 1 5E358498
+P 13350 2350
+F 0 "IC2" H 13900 2615 50  0000 C CNN
+F 1 "MCP1799T-3302H/TT" H 13900 2524 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 14300 2450 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/AP7381-50SA-7.pdf" H 14300 2350 50  0001 L CNN
+F 4 "LDO Voltage Regulators LDO CMOS LowCurr SOT23 T&R 3K" H 14300 2250 50  0001 L CNN "Description"
+F 5 "" H 14300 2150 50  0001 L CNN "Height"
+F 6 "" H 14300 2050 50  0001 L CNN "Mouser Part Number"
+F 7 "" H 14300 1950 50  0001 L CNN "Mouser Price/Stock"
+F 8 "" H 14300 1850 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCP1799T-3302H/TT" H 14300 1750 50  0001 L CNN "Manufacturer_Part_Number"
+	1    13350 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 2350 12950 2350
+Wire Wire Line
+	12950 2650 13350 2650
+Connection ~ 13350 2650
+Wire Wire Line
+	13350 2650 13750 2650
+Wire Wire Line
+	13900 2350 13750 2350
+Connection ~ 13750 2350
+Wire Wire Line
+	13750 2350 13650 2350
+Text Label 2150 2900 0    50   ~ 0
+DIP_SW4
+Text Label 2150 2800 0    50   ~ 0
+DIP_SW3
+Text Label 2150 2700 0    50   ~ 0
+DIP_SW2
+Text Label 2150 2600 0    50   ~ 0
+DIP_SW1
+$Comp
+L SamacSys_Parts:IKD0403101 S2
+U 1 1 5E1B3DE0
+P 1700 2600
+F 0 "S2" H 1869 2865 50  0000 L CNN
+F 1 "DIPSW" H 1869 2774 50  0000 L CNN
+F 2 "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm" H 2350 2700 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/8772264" H 2350 2600 50  0001 L CNN
+F 4 "4 Way Surface Mount DIP Switch SPST, Raised Actuator Slide Actuator" H 2350 2500 50  0001 L CNN "Description"
+F 5 "3.7" H 2350 2400 50  0001 L CNN "Height"
+F 6 "8772264" H 2350 2300 50  0001 L CNN "RS Part Number"
+F 7 "http://uk.rs-online.com/web/p/products/8772264" H 2350 2200 50  0001 L CNN "RS Price/Stock"
+F 8 "Apem" H 2350 2100 50  0001 L CNN "Manufacturer_Name"
+F 9 "IKD0403101" H 2350 2000 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1700 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	900  2600 900  2700
+Connection ~ 900  2600
+Wire Wire Line
+	900  2900 900  2800
+Connection ~ 900  2700
+Connection ~ 900  2800
+Wire Wire Line
+	900  2800 900  2700
 $EndSCHEMATC
