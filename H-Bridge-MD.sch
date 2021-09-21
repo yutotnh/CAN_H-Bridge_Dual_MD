@@ -107,8 +107,6 @@ SWDIO
 Text Label 4850 3000 0    50   ~ 0
 SWCLK
 Wire Wire Line
-	1150 750  1150 900 
-Wire Wire Line
 	1600 900  1600 750 
 Wire Wire Line
 	1000 1750 1050 1750
@@ -139,17 +137,6 @@ Wire Wire Line
 	3600 1400 3700 1400
 Wire Wire Line
 	3700 1150 3700 1400
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5DADCAA9
-P 1150 750
-F 0 "#FLG02" H 1150 825 50  0001 C CNN
-F 1 "PWR_FLAG" H 1150 923 50  0000 C CNN
-F 2 "" H 1150 750 50  0001 C CNN
-F 3 "~" H 1150 750 50  0001 C CNN
-	1    1150 750 
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR03
 U 1 1 5DAD982E
@@ -550,17 +537,6 @@ F 2 "" H 750 750 50  0001 C CNN
 F 3 "~" H 750 750 50  0001 C CNN
 	1    750  750 
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR02
-U 1 1 5E2C06E3
-P 1150 900
-F 0 "#PWR02" H 1150 750 50  0001 C CNN
-F 1 "+3.3V" H 1165 1073 50  0000 C CNN
-F 2 "" H 1150 900 50  0001 C CNN
-F 3 "" H 1150 900 50  0001 C CNN
-	1    1150 900 
-	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 J1
